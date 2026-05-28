@@ -1,6 +1,6 @@
 # ESPHome Web Server API List Components
 
-An ESPHome external component that adds the missing `/components` HTTP endpoint to your device's web server, providing a JSON API to list all components and their metadata.
+An ESPHome external component that adds an alternative to SSE discovery through a `/components` HTTP endpoint to your device's web server, providing a JSON API to list all components and their metadata, sample code for further expansion and publishing of entity data to HTTP endpoints.
 
 ## Overview
 
