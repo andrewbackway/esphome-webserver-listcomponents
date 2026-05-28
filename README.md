@@ -40,10 +40,8 @@ Add this component to your ESPHome configuration as an external component:
 
 ```yaml
 external_components:
-  - source:
-      type: git
-      url: https://github.com/andrewbackway/esphome-webserver-listcomponents
-      components: ["webserver_listcomponents"]
+  - source: github://andrewbackway/esphome-webserver-listcomponents
+    components: ["webserver_listcomponents"]
 
 # Enable the built-in web server (required)
 web_server:
@@ -170,10 +168,8 @@ web_server:
 
 # Add the list components component
 external_components:
-  - source:
-      type: git
-      url: https://github.com/andrewbackway/esphome-webserver-listcomponents
-      components: ["webserver_listcomponents"]
+  - source: github://andrewbackway/esphome-webserver-listcomponents
+    components: ["webserver_listcomponents"]
 
 webserver_listcomponents:
 
